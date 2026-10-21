@@ -1,0 +1,32 @@
+{
+  "name": "github-mcp-commits",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/app/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ugryilmaz/github-mcp-commits.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ugryilmaz/github-mcp-commits/issues"
+  },
+  "homepage": "https://github.com/ugryilmaz/github-mcp-commits#readme",
+  "dependencies": {
+    "@modelcontextprotocol/client": "^2.3.1",
+    "dotenv": "^18.0.8",
+    "fastify": "^5.12.7",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
